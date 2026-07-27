@@ -1,9 +1,8 @@
 /* =========================
-   1. 낮·밤 공통 색상 설정
+   1. 공통 색상 설정
    ========================= */
 
-:root,
-html[data-theme="light"] {
+:root {
   color-scheme: light;
 
   --background: #edf8f5;
@@ -28,33 +27,6 @@ html[data-theme="light"] {
   --desk: #8f6651;
   --monitor: #24494d;
   --screen: #b8fff1;
-}
-
-html[data-theme="dark"] {
-  color-scheme: dark;
-
-  --background: #07131f;
-  --surface: #0d1d2a;
-  --surface-soft: #112838;
-  --surface-deep: #17384b;
-
-  --text: #ecf8ff;
-  --text-soft: #9db5c5;
-  --line: #29475b;
-
-  --primary: #54c9de;
-  --primary-dark: #8bdeeb;
-
-  --water-top: #105e83;
-  --water-bottom: #072d52;
-  --water-glow: rgba(71, 176, 226, 0.32);
-
-  --header-background: rgba(7, 19, 31, 0.88);
-  --card-shadow: 0 22px 55px rgba(0, 0, 0, 0.28);
-
-  --desk: #332c32;
-  --monitor: #081118;
-  --screen: #62d4f6;
 }
 
 /* =========================
