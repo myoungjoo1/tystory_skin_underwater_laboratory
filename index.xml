@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <information>
+    <name>Underwater Laboratory</name>
+    <version>0.1.0</version>
+
+    <description>
+      <![CDATA[
+        밝은 청록색 수중 연구실을 콘셉트로 제작한
+        개인 개발 기록용 티스토리 스킨입니다.
+      ]]>
+    </description>
+
+    <license>
+      <![CDATA[
+        개인 블로그 사용을 위한 스킨입니다.
+      ]]>
+    </license>
+  </information>
+
+  <author>
+    <name>jadeo</name>
+    <homepage></homepage>
+    <email></email>
+  </author>
+
+  <default>
+    <recentEntries>6</recentEntries>
+    <recentComments>5</recentComments>
+    <recentTrackbacks>5</recentTrackbacks>
+    <itemsOnGuestbook>10</itemsOnGuestbook>
+    <tagsInCloud>30</tagsInCloud>
+    <sortInCloud>2</sortInCloud>
+    <expandComment>0</expandComment>
+    <expandTrackback>0</expandTrackback>
+
+    <lengthOfRecentNotice>30</lengthOfRecentNotice>
+    <lengthOfRecentEntry>40</lengthOfRecentEntry>
+    <lengthOfRecentComment>40</lengthOfRecentComment>
+    <lengthOfRecentTrackback>40</lengthOfRecentTrackback>
+    <lengthOfLink>40</lengthOfLink>
+
+    <entriesOnPage>6</entriesOnPage>
+    <entriesOnList>6</entriesOnList>
+    <showListOnCategory>1</showListOnCategory>
+    <showListOnArchive>1</showListOnArchive>
+
+    <tree>
+      <color>17363b</color>
+      <bgColor>edf8f5</bgColor>
+      <activeColor>ffffff</activeColor>
+      <activeBgColor>199e94</activeBgColor>
+      <labelLength>30</labelLength>
+      <showValue>1</showValue>
+    </tree>
+
+    <contentWidth>920</contentWidth>
+  </default>
+</skin>
