@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko" data-theme="light">
+<html lang="ko">
   <head>
     <meta charset="UTF-8">
     <meta
@@ -8,29 +8,6 @@
     >
 
     <title>Underwater Laboratory</title>
-
-    <!-- 화면이 나타나기 전에 저장된 테마를 먼저 적용 -->
-    <script>
-      (function () {
-        const themeKey = "underwater-lab-theme";
-        let savedTheme = null;
-
-        try {
-          savedTheme = localStorage.getItem(themeKey);
-        } catch (error) {
-          savedTheme = null;
-        }
-
-        const systemTheme = window.matchMedia(
-          "(prefers-color-scheme: dark)"
-        ).matches
-          ? "dark"
-          : "light";
-
-        document.documentElement.dataset.theme =
-          savedTheme || systemTheme;
-      })();
-    </script>
 
     <link rel="stylesheet" href="./style.css">
     <script src="./images/script.js" defer></script>
